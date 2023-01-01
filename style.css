@@ -747,6 +747,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 300px;
+    height: 300px;
 }
 
 .img-responsive{
