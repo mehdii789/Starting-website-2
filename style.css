@@ -472,6 +472,7 @@ button {
 
 .btn-rd {
     border-radius: 40px;
+    background-color: #9B3603;
 }
 
 .btn-clean {
@@ -666,6 +667,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: white;
 }
 
 .hero-bloc-text-sub {
@@ -742,7 +744,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -754,6 +756,14 @@ h4 {
 .center-block{
     width: 300px;
     height: 300px;
+}
+
+.tc-white{
+    background: #9B3603;
+}
+
+.tc-white h1{
+    color: white;
 }
 
 .portfolio-row {
@@ -788,11 +798,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background-color: #9B3603;
     color: #FFFFFF!important;
 }
 
