@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -13,11 +13,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0 minif.js">defer</script>
+	<script src="./js/bootstrap minif.js">defer</script>
+	<script src="./js/blocs minif.js">defer</script>
+	<script src="./js/jqBootstrapValidation minif.js">defer</script>
+	<script src="./js/formHandler minif.js">defer</script>
     <title>page2</title>
 
     
@@ -80,29 +80,21 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
+						<label for="name">Nom</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="name">Adress mail</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
+						<label for="name">Comment nous avez-vous connu ?</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="name">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -135,7 +127,7 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" title="twitter" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
