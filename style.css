@@ -845,6 +845,8 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 @media (max-width: 1024px) {
