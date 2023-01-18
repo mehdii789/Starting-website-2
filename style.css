@@ -121,6 +121,11 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
+.navbar-brand img{
+    width: 200px;
+     height: 40px 
+}
+
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -674,6 +679,14 @@ a {
     font-size: 36px;
 }
 
+.tc-white h5{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 20px;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -943,6 +956,8 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+
+
     .site-navigation {
         position: inherit;
         transform: none;
